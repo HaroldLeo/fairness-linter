@@ -21,6 +21,7 @@ The main function for doing fairness testing within a single sensitive category 
 - `priv`: column names for the privileged classes; must be a list of strings
 - `unpriv`: column names for the unprivileged classes: must be a list of strings
 - `verbosity`: three levels of verbosity, default=1; first level is the basic information and verdict of several tests; second level includes graphs; third level includes table of necessary data involved in calculation. 
+
 **Return:**
 Nothing. Results will be printed in the console. 
 
@@ -34,6 +35,7 @@ The specific function for doing fairness testing that accounts for intersectiona
 - `priv`: column names for the privileged classes across different categories; must be a list of strings
 - `unpriv`: column names for the unprivileged classes across different categories: must be a list of strings
 - `verbosity`: three levels of verbosity, default=1; first level is the basic information and verdict of several tests; second level includes graphs; third level includes table of necessary data involved in calculation. 
+
 **Return:**
 Nothing. Results will be printed in the console. 
 
