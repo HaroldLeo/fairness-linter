@@ -13,6 +13,7 @@ Open any python files or environment and enter `from fairness_linter import fair
 ## Documentation
 `fairness(data, label, pred, priv, unpriv, verbosity=1)`
 The main function for doing fairness testing within a single sensitive category (e.g. race, sex, etc.)
+
 **Parameter:**
 - `data`: a pandas DataFrame that includes the necessary information of the case, and it should be dummy coded already. It should also include the actual and predicted labels as well.
 - `label`: column name for the actual label; must be a string
@@ -25,6 +26,7 @@ Nothing. Results will be printed in the console.
 
 `intersectionality(data, label, pred, priv, unpriv, verbosity=1)`
 The specific function for doing fairness testing that accounts for intersectionality
+
 **Parameter:**
 - `data`: a pandas DataFrame that includes the necessary information of the case, and it should be dummy coded already. It should also include the actual and predicted labels as well.
 - `label`: column name for the actual label; must be a string
