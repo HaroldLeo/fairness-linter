@@ -1,5 +1,5 @@
 # Fairness Linter for Python Programs
-A fairness linter package written by Hongji Liu with inspirations from [UChicago CMSC 25900][1] and [IBM AI Fairness 360][2]
+A fairness linter package with inspirations from [UChicago CMSC 25900][1] and [IBM AI Fairness 360][2]
 
 ## Installation
 **Note**: This will be a local installation of the package. 
